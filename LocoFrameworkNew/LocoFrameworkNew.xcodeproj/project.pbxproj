@@ -10,6 +10,7 @@
 		8414E2862875B6C40096F297 /* LocoFrameworkNew.h in Headers */ = {isa = PBXBuildFile; fileRef = 8414E2852875B6C40096F297 /* LocoFrameworkNew.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8414E28D2875B73C0096F297 /* WebRTCiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */; };
 		8414E28F2875B7870096F297 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414E28E2875B7870096F297 /* Service.swift */; };
+		8414E2912875BE160096F297 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414E2902875BE160096F297 /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		8414E2852875B6C40096F297 /* LocoFrameworkNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocoFrameworkNew.h; sourceTree = "<group>"; };
 		8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebRTCiOSSDK.xcframework; sourceTree = "<group>"; };
 		8414E28E2875B7870096F297 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8414E2902875BE160096F297 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +27,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8414E28D2875B73C0096F297 /* WebRTCiOSSDK.xcframework in Frameworks */,
+				8414E2912875BE160096F297 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 		8414E2842875B6C40096F297 /* LocoFrameworkNew */ = {
 			isa = PBXGroup;
 			children = (
+				8414E2902875BE160096F297 /* Fabric.framework */,
 				8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */,
 				8414E2852875B6C40096F297 /* LocoFrameworkNew.h */,
 				8414E28E2875B7870096F297 /* Service.swift */,
@@ -275,6 +279,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocoFrameworkNew",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -305,6 +313,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocoFrameworkNew",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
