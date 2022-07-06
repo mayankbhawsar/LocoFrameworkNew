@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mayankbhawsar/LocoFrameworkNew.git", :tag => "1.0.0" }
   spec.source_files  = "LocoFrameworkNew/**/*.{h,m,swift}"
-  #vendored_frameworks = "WebRTCiOSSDK.xcframework"
-  #spec.framework  = "Fabric"
+  #vendored_frameworks = "WebRTCiOSSDK"
+  spec.framework  = "Fabric"
 
 end

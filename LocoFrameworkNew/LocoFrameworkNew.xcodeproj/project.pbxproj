@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8414E2862875B6C40096F297 /* LocoFrameworkNew.h in Headers */ = {isa = PBXBuildFile; fileRef = 8414E2852875B6C40096F297 /* LocoFrameworkNew.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8414E28D2875B73C0096F297 /* WebRTCiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */; };
 		8414E28F2875B7870096F297 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414E28E2875B7870096F297 /* Service.swift */; };
-		8414E2912875BE160096F297 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8414E2902875BE160096F297 /* Fabric.framework */; };
+		8414E2922875C6D60096F297 /* LocoFrameworkNew.h in Headers */ = {isa = PBXBuildFile; fileRef = 8414E2852875B6C40096F297 /* LocoFrameworkNew.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8414E2822875B6C40096F297 /* LocoFrameworkNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocoFrameworkNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8414E2852875B6C40096F297 /* LocoFrameworkNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocoFrameworkNew.h; sourceTree = "<group>"; };
-		8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebRTCiOSSDK.xcframework; sourceTree = "<group>"; };
 		8414E28E2875B7870096F297 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		8414E2902875BE160096F297 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,8 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8414E28D2875B73C0096F297 /* WebRTCiOSSDK.xcframework in Frameworks */,
-				8414E2912875BE160096F297 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				8414E2902875BE160096F297 /* Fabric.framework */,
-				8414E28C2875B73B0096F297 /* WebRTCiOSSDK.xcframework */,
 				8414E2852875B6C40096F297 /* LocoFrameworkNew.h */,
 				8414E28E2875B7870096F297 /* Service.swift */,
 			);
@@ -68,7 +62,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8414E2862875B6C40096F297 /* LocoFrameworkNew.h in Headers */,
+				8414E2922875C6D60096F297 /* LocoFrameworkNew.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
